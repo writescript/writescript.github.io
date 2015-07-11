@@ -19,6 +19,10 @@ p {
   font-size: 0.8em;
 }
 
+td {
+  padding-right: 15px;
+}
+
 #wrap {
   width: 70%;
   margin-left: 15%;
@@ -28,6 +32,6 @@ p {
   margin-bottom: 3em;
 }
 
-td {
-  padding-right: 15px;
+#footer {
+  margin-top: 5em;
 }
