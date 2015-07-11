@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>writescript</title>
+    <link href='/style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id='wrap'>
+
+      <div id="content">
+        <table>
+          <tr>
+            <td><h3><code><span class="color1">write</span><span class="color2">script</span></code></h3></td>
+            <td><h3><code class="color2">-p plugin.js</code></h3></td>
+            <td><h3><code class="color1">-d data.json</code></h3></td>
+            <td><h3><code class="color3"> > result.src</code></h3></td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <p>plugin based generator tool backpacked with data</p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <pre class="color2">writeln('const (')
+pushLevel()
+for(var k in data) {
+  writeln(k+' = "'+data[k]+'"')
+}
+popLevel()
+writeln(')')</pre>
+            </td>
+            <td><pre class="color1">{
+  "PI": 23,
+  "TheAnswer": 43
+}</pre></td>
+            <td>
+              <pre class="color3">const (
+  Pi = 23
+  TheAnswer = 43
+)</pre>
+            </td>
+          </tr>
+        </table>
+
+        <p>
+          <b>The project is in alpha stage. Do not use in production!</b>
+        </p>
+    </div>
+  </body>
+</html>

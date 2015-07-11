@@ -1,0 +1,32 @@
+body {
+  color: #7E7E7E
+}
+
+.color1 {
+  color: #7E7E7E;
+}
+
+.color2 {
+  color: #1190C8;
+}
+
+.color3 {
+  color: #BE0BB5;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+#wrap {
+  width: 70%;
+  margin-left: 15%;
+}
+
+#header {
+  margin-bottom: 3em;
+}
+
+td {
+  padding-right: 15px;
+}
